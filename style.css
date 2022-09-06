@@ -1,0 +1,83 @@
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+/* SFONDO  */
+.sfondo {
+	background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+	margin-top: 30px;
+	margin-left: 190px;
+	margin-right: 300px;
+	padding-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+/* LOGO E TITOLO */
+.blocco1 {
+
+	text-align: center;
+}
+.logo {
+	width: 250px;
+	margin-top: 150px;
+}
+.titolo {
+	color: #00dd01;
+	margin-top: auto;
+	font-family: 'URW Geometric', sans-serif;
+}
+
+/*  MENU */
+.blocco2 {
+	width: 1000px;
+  margin-top: -10px;
+	text-align: center;
+	background-color: #00e501;
+	padding: 10px;
+}
+button {
+	background-color: #e7e7e7; color: black;
+}
+
+/* MONOPATTINI GINO22 - MIKE24 - FEDE154 */
+div {
+	width: 1020px;
+  margin: auto;
+	font-family: 'URW Geometric', sans-serif;
+}
+/* TITOLI MONOPATTINI  */
+div > h2 {
+	display: inline-block;
+	color: white;
+}
+/* SOTTOTITOLI  */
+div > p {
+	margin-top: -15px;
+	color: white;
+}
+/* STATO CARICHE P */
+div p:last-child {
+	color: white;
+}
+/* BARRE  */
+.barraGINO {
+	margin-top: -5px;
+	border: 16px solid #f7be46;
+  border-radius: 6px;
+	margin-right: 710px;
+}
+.barraMIKE {
+	margin-top: -5px;
+	border: 16px solid #00c200;
+  border-radius: 6px;
+	margin-right: 430px;
+}
+.barraFEDE {
+	margin-top: -5px;
+	border: 16px solid #ca4747;
+  border-radius: 6px;
+	margin-right: 865px;
+}
